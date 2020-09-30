@@ -1,0 +1,41 @@
+.peter {
+    color: rgb(65, 101, 218);
+    font-size: 18px;
+}
+.dana {
+    color: rgb(180, 17, 17);
+    font-size: 18px;
+}
+.mayor {
+    color: rgb(233, 163, 34);
+    font-size: 18px;
+}
+.ray {
+    color: rgb(55, 133, 55);
+    font-size: 18px;
+}
+.winston {
+    color: rgb(83, 197, 188);
+    font-size: 18px;
+}
+.egon {
+    color: rgb(223, 94, 173);
+    font-size: 18px;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+h3 {
+    font-size: larger;
+    font-family: sans-serif;
+}
+.scene1 {
+    line-height: 15px;
+}
+.scene2 {
+    line-height: 15px;
+}
+.scene3 {
+    line-height: 15px;
+}
