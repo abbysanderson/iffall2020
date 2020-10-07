@@ -1,0 +1,80 @@
+p {
+    text-align: center;
+    font-family: rift-soft, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: .02em;
+    color: rgb(99, 36, 57)
+}
+
+.chorus {
+    color: rgb(23, 25, 59);;
+    font-weight: 600;
+}
+
+.cover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+.linktree {
+    text-align:center;
+    display:block;
+    font-size: 18px;
+    font-family: monospace;
+}
+h2 {
+    text-align: center;
+    font-size: 150px;
+    font-family: lust-script-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(23, 25, 59);
+    margin-block-end: -.1em;
+    margin-block-start: .5em;
+}
+
+.love {
+    font-size: 60px;
+    margin-block-end: 0em;
+    text-indent: -1em;
+    margin-block-start: -.1em;
+}
+
+.dolly {
+    margin-block-start: -.2em;
+    margin-block-end: .2em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: rift-soft, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: normal;
+    color: rgb(99, 36, 57);
+}
+body {
+    background-color: rgb(247, 194, 185);
+    margin: 5%;
+}
+main {
+    font-size: 18px;
+    font-family: monospace;
+}
+.gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
