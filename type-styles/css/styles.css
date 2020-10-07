@@ -1,0 +1,108 @@
+html {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: palevioletred;
+}
+
+h2 {
+    color: palevioletred;
+}
+
+h3 {
+    color: pink;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+body {
+    margin: 10%;
+}  
+
+section {
+    margin: 6rem 0;
+}
+
+.styledFontlight {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.styledFontnormal {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.styledFontmedium {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.styledFontbold {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+.styledFontitalic {
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+.styledFontmid {
+    letter-spacing: .1em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+.styledFonttight {
+    letter-spacing: .3em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+.styledFontunderline {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.styledFontlinethru {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    text-decoration: line-through;
+}
+
+.styledFontoverline {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    text-decoration: overline;
+}
+
+.styledFontupper {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+.styledFontlower {
+    text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+.styledFontcaps {
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+.intro {
+    font-size: 18px;
+}
