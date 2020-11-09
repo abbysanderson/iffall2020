@@ -1,0 +1,46 @@
+body {
+    max-width: 960px;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 3%;
+}
+
+img {
+    width: 50%;
+    height: 20rem;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.attribution {
+    margin-bottom: 10%;
+    margin-top: 3%;
+    text-align: left;
+    font-size: 1px;
+}
+
+ul {
+    width: 350px;
+}
+
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#ingredients {
+    margin-left: 10%;
+}
+
+@media (min-width: 640px) {
+    
+}
+
+h3 {
+    margin-left: 1rem;
+}
