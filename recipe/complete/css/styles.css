@@ -1,0 +1,82 @@
+html {
+    background-color: rgb(231, 228, 186);
+    color: rgb(72, 83, 1);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body {
+    max-width: 960px;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    border: 5px double rgb(255, 181, 20);
+}
+
+h1 {
+    padding-top: 1%;
+    font-size: 38px;
+    margin-bottom: 1%;
+    font-family: 'Homemade Apple', cursive;
+
+}
+
+h3 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 22px;
+    margin-bottom: .5%;
+    margin-top: 2%;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+img {
+    width: 50%;
+    height: 18rem;
+    object-fit: cover;
+    max-width: 100%;
+    margin: 1rem;
+    border: 5px solid rgb(255, 181, 20)
+}
+
+.attribution {
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 6%;
+    text-align: left;
+    font-size: 12px;
+}
+
+ul {
+    width: 350px;
+    color: black;
+}
+
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#ingredients {
+    margin-left: 4%;
+}
+
+h3 {
+    margin-left: 1rem;
+}
+
+.timing {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 6%;
+    color: black;
+}
+
+.timing p {
+    margin-right: 5%;
+}
