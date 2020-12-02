@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+  }
+
+body {
+    font-family: aktiv-grotesk-condensed, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.sidebar {
+    width: 13%;
+    height: 100%;
+    background-color:rgb(241, 231, 221);
+    float: left;
+}
+
+nav a {
+    display: block;
+    margin-left: 15%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    line-height: 35px;
+}
+
+.heading {
+    font-size: 70px;
+    margin-left: 16.25%;
+    line-height: 0px
+}
+
+.subhead {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 40px;
+    margin-top: 0;
+}
+
+.maintext {
+    font-weight: 400;
+    width: 40%;
+    margin-left: 16.5%;
+}
+
+.arttag {
+    font-weight: 200;
+    font-style: italic;
+}
+
+.dayandnight .arttag {
+    margin: 10px 0 80px 16.5%;
+}
+
+.dayandnight img { 
+    width: 82%;
+    max-width: 100%;
+    margin-left: 2.75%;
+}
+
+.cycle {
+    float: right;
+    width: 30%;
+    max-width: 100%;
+}
+
+.cycle .arttag {
+    margin-top: 10px;
+}
+
+nav img {
+    width: 70%;
+    margin: 33% 0 15% 0;
+}
+
+.selectedpage {
+    font-weight: 400;
+}
+
+.lspage {
+    padding-top: 95px;
+    margin-top: 0
+}
+
+.homepg {
+    margin-top: 55px;
+}
+
+.sectiontitle {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+#artcollect {
+    margin-top: 90px;
+}
+
+#hand img {
+    width: 80%;
+}
+
+#other img {
+    width: 100%;
+}
+
+#relativity img {
+    width: 120%;
+}
+
+#plane img {
+    width: 100%;
+}
+
+#daynnight img {
+    width: 180%;
+}
+
+#snakes img {
+    width: 110%;
+}
+
+#puddle img {
+    width: 120%;
+}
