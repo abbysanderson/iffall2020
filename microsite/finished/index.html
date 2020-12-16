@@ -7,13 +7,45 @@
     <link rel="stylesheet" href="https://use.typekit.net/otk0nar.css">
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width">
+    <script src="https://kit.fontawesome.com/ca778a47ae.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".fas").click(function(){
+          $(".sidebar").toggleClass("open");
+          console.log("Toggled the class!");
+        });
+      });
+      $(document).on("click", function(event){
+        if(!$(event.target).closest(".sidebar").length){
+            $(".sidebar").removeClass("open");
+            console.log("Removed main sidebar class!");
+        };
+      });
+    </script>
   </head>
 
   <body>
     <!--<div class="mobilesidebar">
       <i class="fas fa-bars">Menu</i>
+       $(".bodywosidebar").click(function() {
+          $(".sidebar").toggleClass("close");
+          console.log("Toggled the class!");
+        })
+                $(".bodywosidebar").click(function() {
+          $("#mainsidebar").hide();
+          console.log("Hid the main sidebar!");
+        })
+        $("bodywosidebar").click(function(){  
+          if ($(".sidebar").hasClass(".open")) {
+              $("sidebar").toggleClass("open"); }
+          });
     </div>-->    
-    <div class="sidebar">
+    <div class="sidebar" id="mobiletop">
+      <i class="fas fa-bars"></i>
+      <p class="mobiletext">Menu</p>
+    </div>
+    <div class="sidebar" id="mainsidebar">
         <nav>
           <a class="signature" href="index.html">
             <img src="sources/eschersignature-06.png">
@@ -24,6 +56,7 @@
           <a href="citations.html">SOURCES</a>
       </nav>
         </div>
+        <div class="bodywosidebar">
         <div class="heading">
           <p class="subhead">The Life and Works of</p>
           <p class="homepg">M.C. ESCHER</p>
@@ -55,6 +88,7 @@
         </p>
         </div> 
         </div> 
+      </div>
 
   </body>
 
